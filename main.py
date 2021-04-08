@@ -40,3 +40,36 @@ print(basket.count(1))
 basket_2= ['a','x','c','h','o','2']
 basket_2.sort()
 print(f'{basket_2}')
+basket_2.reverse()
+print(basket_2)
+# print(list(range(1,100)))
+sentence=' '
+new_sentence=sentence.join(['hi','my','name','is','goku'])
+print(new_sentence)
+##List Unpacking
+a,b,c, *other,d=[1,2,3,4,5,6,7,8]
+print(a)
+print(b)
+print(c)
+print(other)
+print(d)
+##Dictionary
+dictionary = {
+    'a': 1,
+    'b': 2
+}
+print(dictionary['b'])
+my_list = [
+{
+    'a': [1,2,3],
+    'b': ['a','b','c'],
+    'c': [6,7,8]
+},
+{
+    'a': [1,2,3],
+    'b': ['a','h','t'],
+    'c': [9,0,4]
+}
+    ]
+print(my_list[1]['b'][2])
+print(my_list.get('a'))
